@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Simple Contact Form
+    </title>
+    <style>
+    body {
+        background-color: #888C96;
+    }
+    footer {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    #box-model {
+        width: fit-content;
+        padding-left: 50px;
+        padding: 20px;
+        border: none;
+        margin: auto;
+        background-color: white;
+        border-radius: 50px;
+    }
+        button {
+            width: 400px;
+            height: 30px;
+            background-color: #FF6666;
+            -webkit-text-fill-color: white;
+            font-size: medium;
+            border: none;
+        }
+        .input {
+            width: 400px;
+            height: 30px;
+            background-color: #E7E8EA;
+            border: none;
+        }
+        textarea {
+            width: 400px;
+            height: 100px;
+            border: none;
+            background-color: #E7E8EA;
+        }
+        label {
+            -webkit-text-fill-color: #2D3345;
+        }
+    </style>
+</head>
+<body>
+    <h2>SIMPLE CONTACT FORM</h2>
+    <div id="box-model">
+        <form>
+            <label>
+                FIRST NAME
+            </label><br>
+            <input type="text" name="fname" placeholder="FIRST NAME" class="input" ><br><br>
+            <label>
+                LAST NAME
+            </label><br>
+            <input type="text" name="lname" placeholder="LAST NAME" class="input"><br><br>
+            <label>
+                GENDER
+            </label><br>
+            <input type="radio" name="Select gender" value="Male">
+            <label>
+                Male
+            </label><br>
+            <input type="radio" name="Select gender" value="Female">
+            <label>
+                Female
+            </label><br><br>
+            <label>
+                EMAIL
+            </label><br>
+            <input type="email" name="email" placeholder="EMAIL" class="input"><br><br>
+            <label>
+                PASSWORD
+            </label><br>
+            <input type="password" name="password" placeholder="PASSWORD" class="input"><br><br>
+            <label>
+                PHONE NUMBER
+            </label><br>
+            <input type="number" name="pnumber" placeholder="PHONE NUMBER" class="input"><br><br>
+            
+            <label>SELECT SUBJECTS</label><br>
+            <input type="checkbox" name="English" value="English">English <br>
+            <input type="checkbox" name="Maths" value="Maths">Maths <br>
+            <input type="checkbox" name="Science" value="Science">Science <br><br>
+
+            <label>
+                SELECT CATEGORY
+            </label><br>
+            <select name="clothes" class="input">
+                <option value="Shirt">Shirt</option>
+                <option value="T-Shirt">T-Shirt</option>
+                <option value="Denim">Denim</option>
+                <option value="Jeans">Jeans</option>
+            </select><br><br>
+
+
+
+            <label>
+                CITY
+            </label><br>
+            <input type="text" name="city" placeholder="CITY" class="input"><br><br>
+            <label>
+                DATE
+            </label><br>
+            <input type="date" class="input"><br><br>
+            <label>
+                UPLOAD A FILE
+            </label><br>
+            <input type="file"><br><br>
+            <label>
+                MESSAGE
+            </label><br>
+            <textarea>MESSAGE</textarea><br><br>
+            <button>
+                Send
+            </button>
+            
+            
+        </form>
+    </div>
+
+    <div>
+        <footer><br>
+            &copy; Simple Contact Form. All Rights Reserved | Design by Yesh Damania
+        </footer>
+    </div>
+</body>
+</html>
